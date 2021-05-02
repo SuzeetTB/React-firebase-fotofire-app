@@ -8,9 +8,9 @@ function App() {
   
 
   return (
-    <Router basename="/react-firebase-fotofire-app">
+    <Router basename="/">
       <Switch>
-        <Route path='/' exact component ={MainComponent}/>
+          <Route path='/' exact component ={MainComponent}/>
           <Route path='*' component={E404}/>
       </Switch>
     </Router>
