@@ -1,6 +1,7 @@
 {
   "name": "fotofire",
-  "homepage": "https://suzeettb.github.io/react-firebase-fotofire-app",
+  "homepage": ".",
+  "oldurl":"https://suzeettb.github.io/react-firebase-fotofire-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +16,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^4.0.3"
+    "react-scripts": "^4.0.3",
+    "serve": "^11.3.2"
   },
   "scripts": {
     "predeploy": "npm run build",
