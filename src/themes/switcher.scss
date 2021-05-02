@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #fff;
+    color: #222;
+    padding: 0;
+    height: 100vh;
+}
+.head{
+    display: inline-block;
+}
+.head-title{
+    position: absolute;
+    left:0.2;
+    color: #efb6b2;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight:bolder;
+}
+.theme-option{
+    position: absolute;
+    right:0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 20px 0;
+    div{
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        border-radius: 4px;
+        margin: 2px 10px;
+        border: 1px solid #fff;
+        display: inline-block;
+        box-shadow: 0 4px 10px rgba(#000,0.1);
+        opacity: 0.5;
+        &.active{
+            opacity:1
+        }
+    }
+}
+#theme-white{
+    background-color: #fff;
+}
+#theme-blue{
+    background-color: rgb(76, 114, 221);
+}
+#theme-orange{
+    background-color: rgb(235, 92, 48);
+}
+#theme-purple{
+    background-color: rgb(151, 49, 219);
+}
+#theme-green{
+    background-color: rgb(41, 226, 97);
+}
+#theme-black{
+    background-color: darkslategrey;
+}
+.App.theme-white{
+    background-color:#fff;
+    h2{
+        color: black;
+    }
+}
+.App.theme-blue{
+    background-color: rgb(76, 114, 221);
+    h2{
+        color: white;
+    }
+}
+.App.theme-orange{
+    background-color: rgb(235, 92, 48);
+    h2{
+        color:blue;
+    }
+}
+.App.theme-purple{
+    background-color: rgb(151, 49, 219);
+    h2{
+        color: white;
+    }
+}
+.App.theme-green{
+    background-color: rgb(41, 226, 97);
+    h2{
+        color: black;
+    }
+}
+.App.theme-black{
+    background-color: darkslategrey;
+    h2{
+        color: white;
+    }
+}
