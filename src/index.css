@@ -23,11 +23,11 @@ body{
   height: 100vh;
   margin: 0 auto;
 }
-.title h1{
-  color: var(--primary);
+.title h4{
+  color: var(--error);
   font-size: 1.2rem;
-  letter-spacing: 2px;
-  font-weight:bolder;
+  text-align: center;
+  font-weight:lighter;
 }
 .title h2, .title p{
   text-align: center;
@@ -39,7 +39,7 @@ body{
 
 /* upload form styles */
 form{
-  margin: 30px auto 10px;
+  margin: 20px auto 10px;
   text-align: center;
 }
 label input{
@@ -64,20 +64,18 @@ label:hover{
   color: white;
 }
 .output{
-  height: 60px;
+  height: 30px;
   font-size: 0.8rem;
 }
 .error{
   color: var(--error);
 }
-
 /* progress bar styles */
 .progress-bar{
   height: 5px;
   background: var(--primary);
   margin-top: 20px;
 }
-
 /* image grid styles */
 .img-grid{
   background-color: rgba(0,0,0,0.3);
@@ -108,14 +106,14 @@ label:hover{
   opacity: 0.8;
 }
 .img-wrap img{
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 80%;
+  min-height: 80%;
   max-width: 150%;
   position: absolute;
   top: 0;
   left: 0;
+  align-self: center;
 }
-
 /* modal styles */
 .backdrop{
   position: fixed;
@@ -128,8 +126,8 @@ label:hover{
 .backdrop img{
   display: block;
   max-width: 60%;
-  max-height: 180%;
+  max-height: 80%;
   margin: 80px auto;
   box-shadow: 3px 5px 7px rgba(0,0,0,0.5);
-  border: 3px solid white;
+  border: 2px solid white;
 }
